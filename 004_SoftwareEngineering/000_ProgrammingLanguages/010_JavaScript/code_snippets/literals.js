@@ -8,7 +8,10 @@
 
 let bigIntLiteral = 1234567890123456789012345678901234567890n;
 console.log(bigIntLiteral);
+
 let bigIntFunction = BigInt(1234567890123456789012345678901234567890);
 console.log(bigIntFunction);
+
 let bigIntFunctionString = BigInt('1234567890123456789012345678901234567890');
 console.log(bigIntFunctionString);
+
